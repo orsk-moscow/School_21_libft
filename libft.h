@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: klekisha <klekisha@student.42.fr>          +#+  +:+       +#+        */
+/*   By: u18188899 <u18188899@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/23 20:49:11 by klekisha          #+#    #+#             */
-/*   Updated: 2019/05/05 17:45:57 by klekisha         ###   ########.fr       */
+/*   Updated: 2020/05/31 12:57:08 by u18188899        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -1525,5 +1525,6 @@ t_list *(*f)(t_list *elem));
 // Return value The new list.
 
 int									ft_count_words(char const *s, char c);
+char								*ft_itoa_base(int n, int base);
 
 #endif
